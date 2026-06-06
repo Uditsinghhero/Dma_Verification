@@ -1,0 +1,421 @@
+#-----------------------------------------------------------
+# Vivado v2024.1 (64-bit)
+# SW Build 5076996 on Wed May 22 18:37:14 MDT 2024
+# IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+# SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+# Start of session at: Tue May 12 12:24:49 2026
+# Process ID: 81068
+# Current directory: C:/vivado/Dma_Verification/Dma_Verification.runs/synth_1
+# Command line: vivado.exe -log dma_engine.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source dma_engine.tcl
+# Log file: C:/vivado/Dma_Verification/Dma_Verification.runs/synth_1/dma_engine.vds
+# Journal file: C:/vivado/Dma_Verification/Dma_Verification.runs/synth_1\vivado.jou
+# Running On        :LAPTOP-GEKT898H
+# Platform          :Windows Server 2016 or Windows 10
+# Operating System  :22631
+# Processor Detail  :12th Gen Intel(R) Core(TM) i5-1235U
+# CPU Frequency     :2496 MHz
+# CPU Physical cores:10
+# CPU Logical cores :12
+# Host memory       :16869 MB
+# Swap memory       :9669 MB
+# Total Virtual     :26539 MB
+# Available Virtual :3543 MB
+#-----------------------------------------------------------
+source dma_engine.tcl -notrace
+create_project: Time (s): cpu = 00:00:02 ; elapsed = 00:00:13 . Memory (MB): peak = 517.180 ; gain = 202.207
+Command: synth_design -top dma_engine -part xc7z020clg400-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 71860
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:02 ; elapsed = 00:00:08 . Memory (MB): peak = 972.809 ; gain = 452.641
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'dma_engine' [C:/vivado/Dma_Verification/Dma_Verification.srcs/sources_1/new/dma_engine.sv:3]
+INFO: [Synth 8-6155] done synthesizing module 'dma_engine' (0#1) [C:/vivado/Dma_Verification/Dma_Verification.srcs/sources_1/new/dma_engine.sv:3]
+WARNING: [Synth 8-6014] Unused sequential element desc_len_reg was removed.  [C:/vivado/Dma_Verification/Dma_Verification.srcs/sources_1/new/dma_engine.sv:245]
+WARNING: [Synth 8-7137] Register burst_buf_reg[0] in module dma_engine has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/vivado/Dma_Verification/Dma_Verification.srcs/sources_1/new/dma_engine.sv:358]
+WARNING: [Synth 8-7137] Register burst_buf_reg[1] in module dma_engine has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/vivado/Dma_Verification/Dma_Verification.srcs/sources_1/new/dma_engine.sv:358]
+WARNING: [Synth 8-7137] Register burst_buf_reg[2] in module dma_engine has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/vivado/Dma_Verification/Dma_Verification.srcs/sources_1/new/dma_engine.sv:358]
+WARNING: [Synth 8-7137] Register burst_buf_reg[3] in module dma_engine has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/vivado/Dma_Verification/Dma_Verification.srcs/sources_1/new/dma_engine.sv:358]
+WARNING: [Synth 8-7137] Register burst_buf_reg[4] in module dma_engine has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/vivado/Dma_Verification/Dma_Verification.srcs/sources_1/new/dma_engine.sv:358]
+WARNING: [Synth 8-7137] Register burst_buf_reg[5] in module dma_engine has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/vivado/Dma_Verification/Dma_Verification.srcs/sources_1/new/dma_engine.sv:358]
+WARNING: [Synth 8-7137] Register burst_buf_reg[6] in module dma_engine has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/vivado/Dma_Verification/Dma_Verification.srcs/sources_1/new/dma_engine.sv:358]
+WARNING: [Synth 8-7137] Register burst_buf_reg[7] in module dma_engine has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/vivado/Dma_Verification/Dma_Verification.srcs/sources_1/new/dma_engine.sv:358]
+WARNING: [Synth 8-7137] Register burst_buf_reg[8] in module dma_engine has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/vivado/Dma_Verification/Dma_Verification.srcs/sources_1/new/dma_engine.sv:358]
+WARNING: [Synth 8-7137] Register burst_buf_reg[9] in module dma_engine has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/vivado/Dma_Verification/Dma_Verification.srcs/sources_1/new/dma_engine.sv:358]
+WARNING: [Synth 8-7137] Register burst_buf_reg[10] in module dma_engine has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/vivado/Dma_Verification/Dma_Verification.srcs/sources_1/new/dma_engine.sv:358]
+WARNING: [Synth 8-7137] Register burst_buf_reg[11] in module dma_engine has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/vivado/Dma_Verification/Dma_Verification.srcs/sources_1/new/dma_engine.sv:358]
+WARNING: [Synth 8-7137] Register burst_buf_reg[12] in module dma_engine has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/vivado/Dma_Verification/Dma_Verification.srcs/sources_1/new/dma_engine.sv:358]
+WARNING: [Synth 8-7137] Register burst_buf_reg[13] in module dma_engine has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/vivado/Dma_Verification/Dma_Verification.srcs/sources_1/new/dma_engine.sv:358]
+WARNING: [Synth 8-7137] Register burst_buf_reg[14] in module dma_engine has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/vivado/Dma_Verification/Dma_Verification.srcs/sources_1/new/dma_engine.sv:358]
+WARNING: [Synth 8-7137] Register burst_buf_reg[15] in module dma_engine has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/vivado/Dma_Verification/Dma_Verification.srcs/sources_1/new/dma_engine.sv:358]
+WARNING: [Synth 8-7137] Register burst_strb_reg[0] in module dma_engine has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/vivado/Dma_Verification/Dma_Verification.srcs/sources_1/new/dma_engine.sv:359]
+WARNING: [Synth 8-7137] Register burst_strb_reg[1] in module dma_engine has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/vivado/Dma_Verification/Dma_Verification.srcs/sources_1/new/dma_engine.sv:359]
+WARNING: [Synth 8-7137] Register burst_strb_reg[2] in module dma_engine has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/vivado/Dma_Verification/Dma_Verification.srcs/sources_1/new/dma_engine.sv:359]
+WARNING: [Synth 8-7137] Register burst_strb_reg[3] in module dma_engine has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/vivado/Dma_Verification/Dma_Verification.srcs/sources_1/new/dma_engine.sv:359]
+WARNING: [Synth 8-7137] Register burst_strb_reg[4] in module dma_engine has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/vivado/Dma_Verification/Dma_Verification.srcs/sources_1/new/dma_engine.sv:359]
+WARNING: [Synth 8-7137] Register burst_strb_reg[5] in module dma_engine has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/vivado/Dma_Verification/Dma_Verification.srcs/sources_1/new/dma_engine.sv:359]
+WARNING: [Synth 8-7137] Register burst_strb_reg[6] in module dma_engine has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/vivado/Dma_Verification/Dma_Verification.srcs/sources_1/new/dma_engine.sv:359]
+WARNING: [Synth 8-7137] Register burst_strb_reg[7] in module dma_engine has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/vivado/Dma_Verification/Dma_Verification.srcs/sources_1/new/dma_engine.sv:359]
+WARNING: [Synth 8-7137] Register burst_strb_reg[8] in module dma_engine has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/vivado/Dma_Verification/Dma_Verification.srcs/sources_1/new/dma_engine.sv:359]
+WARNING: [Synth 8-7137] Register burst_strb_reg[9] in module dma_engine has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/vivado/Dma_Verification/Dma_Verification.srcs/sources_1/new/dma_engine.sv:359]
+WARNING: [Synth 8-7137] Register burst_strb_reg[10] in module dma_engine has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/vivado/Dma_Verification/Dma_Verification.srcs/sources_1/new/dma_engine.sv:359]
+WARNING: [Synth 8-7137] Register burst_strb_reg[11] in module dma_engine has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/vivado/Dma_Verification/Dma_Verification.srcs/sources_1/new/dma_engine.sv:359]
+WARNING: [Synth 8-7137] Register burst_strb_reg[12] in module dma_engine has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/vivado/Dma_Verification/Dma_Verification.srcs/sources_1/new/dma_engine.sv:359]
+WARNING: [Synth 8-7137] Register burst_strb_reg[13] in module dma_engine has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/vivado/Dma_Verification/Dma_Verification.srcs/sources_1/new/dma_engine.sv:359]
+WARNING: [Synth 8-7137] Register burst_strb_reg[14] in module dma_engine has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/vivado/Dma_Verification/Dma_Verification.srcs/sources_1/new/dma_engine.sv:359]
+WARNING: [Synth 8-7137] Register burst_strb_reg[15] in module dma_engine has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/vivado/Dma_Verification/Dma_Verification.srcs/sources_1/new/dma_engine.sv:359]
+WARNING: [Synth 8-3917] design dma_engine has port pready driven by constant 1
+WARNING: [Synth 8-3917] design dma_engine has port pslverr driven by constant 0
+WARNING: [Synth 8-3917] design dma_engine has port awsize[2] driven by constant 0
+WARNING: [Synth 8-3917] design dma_engine has port awsize[1] driven by constant 1
+WARNING: [Synth 8-3917] design dma_engine has port awsize[0] driven by constant 1
+WARNING: [Synth 8-3917] design dma_engine has port awburst[1] driven by constant 0
+WARNING: [Synth 8-3917] design dma_engine has port awburst[0] driven by constant 1
+WARNING: [Synth 8-3917] design dma_engine has port arsize[2] driven by constant 0
+WARNING: [Synth 8-3917] design dma_engine has port arsize[1] driven by constant 1
+WARNING: [Synth 8-3917] design dma_engine has port arsize[0] driven by constant 1
+WARNING: [Synth 8-3917] design dma_engine has port arburst[1] driven by constant 0
+WARNING: [Synth 8-3917] design dma_engine has port arburst[0] driven by constant 1
+WARNING: [Synth 8-7129] Port bid[3] in module dma_engine is either unconnected or has no load
+WARNING: [Synth 8-7129] Port bid[2] in module dma_engine is either unconnected or has no load
+WARNING: [Synth 8-7129] Port bid[1] in module dma_engine is either unconnected or has no load
+WARNING: [Synth 8-7129] Port bid[0] in module dma_engine is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rid[3] in module dma_engine is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rid[2] in module dma_engine is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rid[1] in module dma_engine is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rid[0] in module dma_engine is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:02 ; elapsed = 00:00:10 . Memory (MB): peak = 1097.457 ; gain = 577.289
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:02 ; elapsed = 00:00:12 . Memory (MB): peak = 1097.457 ; gain = 577.289
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z020clg400-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:02 ; elapsed = 00:00:12 . Memory (MB): peak = 1097.457 ; gain = 577.289
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7z020clg400-1
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:13 . Memory (MB): peak = 1119.254 ; gain = 599.086
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input   32 Bit       Adders := 2     
+	   3 Input   16 Bit       Adders := 1     
+	   2 Input    8 Bit       Adders := 2     
+	   2 Input    6 Bit       Adders := 1     
+	   2 Input    5 Bit       Adders := 3     
+	   2 Input    2 Bit       Adders := 1     
++---Registers : 
+	               64 Bit    Registers := 17    
+	               32 Bit    Registers := 7     
+	               16 Bit    Registers := 1     
+	                8 Bit    Registers := 23    
+	                5 Bit    Registers := 3     
+	                4 Bit    Registers := 5     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 28    
++---Muxes : 
+	  11 Input   64 Bit        Muxes := 1     
+	   2 Input   32 Bit        Muxes := 2     
+	  11 Input   32 Bit        Muxes := 3     
+	   4 Input   32 Bit        Muxes := 1     
+	  11 Input   16 Bit        Muxes := 1     
+	   2 Input   16 Bit        Muxes := 1     
+	   4 Input    8 Bit        Muxes := 1     
+	  11 Input    8 Bit        Muxes := 2     
+	   2 Input    8 Bit        Muxes := 1     
+	   2 Input    5 Bit        Muxes := 1     
+	   4 Input    5 Bit        Muxes := 1     
+	  11 Input    5 Bit        Muxes := 2     
+	   2 Input    4 Bit        Muxes := 4     
+	  11 Input    4 Bit        Muxes := 3     
+	   2 Input    2 Bit        Muxes := 2     
+	   2 Input    1 Bit        Muxes := 55    
+	  11 Input    1 Bit        Muxes := 52    
+	   4 Input    1 Bit        Muxes := 9     
+	   3 Input    1 Bit        Muxes := 4     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+INFO: [Device 21-9227] Part: xc7z020clg400-1 does not have CEAM library.
+Part Resources:
+DSPs: 220 (col length:60)
+BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+WARNING: [Synth 8-3917] design dma_engine has port pready driven by constant 1
+WARNING: [Synth 8-3917] design dma_engine has port pslverr driven by constant 0
+WARNING: [Synth 8-3917] design dma_engine has port awsize[2] driven by constant 0
+WARNING: [Synth 8-3917] design dma_engine has port awsize[1] driven by constant 1
+WARNING: [Synth 8-3917] design dma_engine has port awsize[0] driven by constant 1
+WARNING: [Synth 8-3917] design dma_engine has port awburst[1] driven by constant 0
+WARNING: [Synth 8-3917] design dma_engine has port awburst[0] driven by constant 1
+WARNING: [Synth 8-3917] design dma_engine has port arsize[2] driven by constant 0
+WARNING: [Synth 8-3917] design dma_engine has port arsize[1] driven by constant 1
+WARNING: [Synth 8-3917] design dma_engine has port arsize[0] driven by constant 1
+WARNING: [Synth 8-3917] design dma_engine has port arburst[1] driven by constant 0
+WARNING: [Synth 8-3917] design dma_engine has port arburst[0] driven by constant 1
+WARNING: [Synth 8-7129] Port bid[3] in module dma_engine is either unconnected or has no load
+WARNING: [Synth 8-7129] Port bid[2] in module dma_engine is either unconnected or has no load
+WARNING: [Synth 8-7129] Port bid[1] in module dma_engine is either unconnected or has no load
+WARNING: [Synth 8-7129] Port bid[0] in module dma_engine is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rid[3] in module dma_engine is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rid[2] in module dma_engine is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rid[1] in module dma_engine is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rid[0] in module dma_engine is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:06 ; elapsed = 00:00:27 . Memory (MB): peak = 1351.113 ; gain = 830.945
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:06 ; elapsed = 00:00:28 . Memory (MB): peak = 1353.902 ; gain = 833.734
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:06 ; elapsed = 00:00:28 . Memory (MB): peak = 1353.902 ; gain = 833.734
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:08 ; elapsed = 00:00:35 . Memory (MB): peak = 1353.930 ; gain = 833.762
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:08 ; elapsed = 00:00:35 . Memory (MB): peak = 1353.930 ; gain = 833.762
+---------------------------------------------------------------------------------
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin ch_desc_addr[3][31] with 1st driver pin 'ch_desc_addr_reg[3][31]__0/Q' [C:/vivado/Dma_Verification/Dma_Verification.srcs/sources_1/new/dma_engine.sv:85]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin ch_desc_addr[3][31] with 2nd driver pin 'ch_desc_addr_reg[3][31]/Q' [C:/vivado/Dma_Verification/Dma_Verification.srcs/sources_1/new/dma_engine.sv:283]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin ch_desc_addr[3][30] with 1st driver pin 'ch_desc_addr_reg[3][30]__0/Q' [C:/vivado/Dma_Verification/Dma_Verification.srcs/sources_1/new/dma_engine.sv:85]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin ch_desc_addr[3][30] with 2nd driver pin 'ch_desc_addr_reg[3][30]/Q' [C:/vivado/Dma_Verification/Dma_Verification.srcs/sources_1/new/dma_engine.sv:283]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin ch_desc_addr[3][29] with 1st driver pin 'ch_desc_addr_reg[3][29]__0/Q' [C:/vivado/Dma_Verification/Dma_Verification.srcs/sources_1/new/dma_engine.sv:85]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin ch_desc_addr[3][29] with 2nd driver pin 'ch_desc_addr_reg[3][29]/Q' [C:/vivado/Dma_Verification/Dma_Verification.srcs/sources_1/new/dma_engine.sv:283]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin ch_desc_addr[3][28] with 1st driver pin 'ch_desc_addr_reg[3][28]__0/Q' [C:/vivado/Dma_Verification/Dma_Verification.srcs/sources_1/new/dma_engine.sv:85]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin ch_desc_addr[3][28] with 2nd driver pin 'ch_desc_addr_reg[3][28]/Q' [C:/vivado/Dma_Verification/Dma_Verification.srcs/sources_1/new/dma_engine.sv:283]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin ch_desc_addr[3][27] with 1st driver pin 'ch_desc_addr_reg[3][27]__0/Q' [C:/vivado/Dma_Verification/Dma_Verification.srcs/sources_1/new/dma_engine.sv:85]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin ch_desc_addr[3][27] with 2nd driver pin 'ch_desc_addr_reg[3][27]/Q' [C:/vivado/Dma_Verification/Dma_Verification.srcs/sources_1/new/dma_engine.sv:283]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin ch_desc_addr[3][26] with 1st driver pin 'ch_desc_addr_reg[3][26]__0/Q' [C:/vivado/Dma_Verification/Dma_Verification.srcs/sources_1/new/dma_engine.sv:85]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin ch_desc_addr[3][26] with 2nd driver pin 'ch_desc_addr_reg[3][26]/Q' [C:/vivado/Dma_Verification/Dma_Verification.srcs/sources_1/new/dma_engine.sv:283]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin ch_desc_addr[3][25] with 1st driver pin 'ch_desc_addr_reg[3][25]__0/Q' [C:/vivado/Dma_Verification/Dma_Verification.srcs/sources_1/new/dma_engine.sv:85]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin ch_desc_addr[3][25] with 2nd driver pin 'ch_desc_addr_reg[3][25]/Q' [C:/vivado/Dma_Verification/Dma_Verification.srcs/sources_1/new/dma_engine.sv:283]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin ch_desc_addr[3][24] with 1st driver pin 'ch_desc_addr_reg[3][24]__0/Q' [C:/vivado/Dma_Verification/Dma_Verification.srcs/sources_1/new/dma_engine.sv:85]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin ch_desc_addr[3][24] with 2nd driver pin 'ch_desc_addr_reg[3][24]/Q' [C:/vivado/Dma_Verification/Dma_Verification.srcs/sources_1/new/dma_engine.sv:283]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin ch_desc_addr[3][23] with 1st driver pin 'ch_desc_addr_reg[3][23]__0/Q' [C:/vivado/Dma_Verification/Dma_Verification.srcs/sources_1/new/dma_engine.sv:85]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin ch_desc_addr[3][23] with 2nd driver pin 'ch_desc_addr_reg[3][23]/Q' [C:/vivado/Dma_Verification/Dma_Verification.srcs/sources_1/new/dma_engine.sv:283]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin ch_desc_addr[3][22] with 1st driver pin 'ch_desc_addr_reg[3][22]__0/Q' [C:/vivado/Dma_Verification/Dma_Verification.srcs/sources_1/new/dma_engine.sv:85]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin ch_desc_addr[3][22] with 2nd driver pin 'ch_desc_addr_reg[3][22]/Q' [C:/vivado/Dma_Verification/Dma_Verification.srcs/sources_1/new/dma_engine.sv:283]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin ch_desc_addr[3][21] with 1st driver pin 'ch_desc_addr_reg[3][21]__0/Q' [C:/vivado/Dma_Verification/Dma_Verification.srcs/sources_1/new/dma_engine.sv:85]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin ch_desc_addr[3][21] with 2nd driver pin 'ch_desc_addr_reg[3][21]/Q' [C:/vivado/Dma_Verification/Dma_Verification.srcs/sources_1/new/dma_engine.sv:283]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin ch_desc_addr[3][20] with 1st driver pin 'ch_desc_addr_reg[3][20]__0/Q' [C:/vivado/Dma_Verification/Dma_Verification.srcs/sources_1/new/dma_engine.sv:85]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin ch_desc_addr[3][20] with 2nd driver pin 'ch_desc_addr_reg[3][20]/Q' [C:/vivado/Dma_Verification/Dma_Verification.srcs/sources_1/new/dma_engine.sv:283]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin ch_desc_addr[3][19] with 1st driver pin 'ch_desc_addr_reg[3][19]__0/Q' [C:/vivado/Dma_Verification/Dma_Verification.srcs/sources_1/new/dma_engine.sv:85]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin ch_desc_addr[3][19] with 2nd driver pin 'ch_desc_addr_reg[3][19]/Q' [C:/vivado/Dma_Verification/Dma_Verification.srcs/sources_1/new/dma_engine.sv:283]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin ch_desc_addr[3][18] with 1st driver pin 'ch_desc_addr_reg[3][18]__0/Q' [C:/vivado/Dma_Verification/Dma_Verification.srcs/sources_1/new/dma_engine.sv:85]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin ch_desc_addr[3][18] with 2nd driver pin 'ch_desc_addr_reg[3][18]/Q' [C:/vivado/Dma_Verification/Dma_Verification.srcs/sources_1/new/dma_engine.sv:283]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin ch_desc_addr[3][17] with 1st driver pin 'ch_desc_addr_reg[3][17]__0/Q' [C:/vivado/Dma_Verification/Dma_Verification.srcs/sources_1/new/dma_engine.sv:85]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin ch_desc_addr[3][17] with 2nd driver pin 'ch_desc_addr_reg[3][17]/Q' [C:/vivado/Dma_Verification/Dma_Verification.srcs/sources_1/new/dma_engine.sv:283]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin ch_desc_addr[3][16] with 1st driver pin 'ch_desc_addr_reg[3][16]__0/Q' [C:/vivado/Dma_Verification/Dma_Verification.srcs/sources_1/new/dma_engine.sv:85]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin ch_desc_addr[3][16] with 2nd driver pin 'ch_desc_addr_reg[3][16]/Q' [C:/vivado/Dma_Verification/Dma_Verification.srcs/sources_1/new/dma_engine.sv:283]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin ch_desc_addr[3][15] with 1st driver pin 'ch_desc_addr_reg[3][15]__0/Q' [C:/vivado/Dma_Verification/Dma_Verification.srcs/sources_1/new/dma_engine.sv:85]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin ch_desc_addr[3][15] with 2nd driver pin 'ch_desc_addr_reg[3][15]/Q' [C:/vivado/Dma_Verification/Dma_Verification.srcs/sources_1/new/dma_engine.sv:283]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin ch_desc_addr[3][14] with 1st driver pin 'ch_desc_addr_reg[3][14]__0/Q' [C:/vivado/Dma_Verification/Dma_Verification.srcs/sources_1/new/dma_engine.sv:85]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin ch_desc_addr[3][14] with 2nd driver pin 'ch_desc_addr_reg[3][14]/Q' [C:/vivado/Dma_Verification/Dma_Verification.srcs/sources_1/new/dma_engine.sv:283]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin ch_desc_addr[3][13] with 1st driver pin 'ch_desc_addr_reg[3][13]__0/Q' [C:/vivado/Dma_Verification/Dma_Verification.srcs/sources_1/new/dma_engine.sv:85]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin ch_desc_addr[3][13] with 2nd driver pin 'ch_desc_addr_reg[3][13]/Q' [C:/vivado/Dma_Verification/Dma_Verification.srcs/sources_1/new/dma_engine.sv:283]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin ch_desc_addr[3][12] with 1st driver pin 'ch_desc_addr_reg[3][12]__0/Q' [C:/vivado/Dma_Verification/Dma_Verification.srcs/sources_1/new/dma_engine.sv:85]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin ch_desc_addr[3][12] with 2nd driver pin 'ch_desc_addr_reg[3][12]/Q' [C:/vivado/Dma_Verification/Dma_Verification.srcs/sources_1/new/dma_engine.sv:283]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin ch_desc_addr[3][11] with 1st driver pin 'ch_desc_addr_reg[3][11]__0/Q' [C:/vivado/Dma_Verification/Dma_Verification.srcs/sources_1/new/dma_engine.sv:85]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin ch_desc_addr[3][11] with 2nd driver pin 'ch_desc_addr_reg[3][11]/Q' [C:/vivado/Dma_Verification/Dma_Verification.srcs/sources_1/new/dma_engine.sv:283]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin ch_desc_addr[3][10] with 1st driver pin 'ch_desc_addr_reg[3][10]__0/Q' [C:/vivado/Dma_Verification/Dma_Verification.srcs/sources_1/new/dma_engine.sv:85]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin ch_desc_addr[3][10] with 2nd driver pin 'ch_desc_addr_reg[3][10]/Q' [C:/vivado/Dma_Verification/Dma_Verification.srcs/sources_1/new/dma_engine.sv:283]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin ch_desc_addr[3][9] with 1st driver pin 'ch_desc_addr_reg[3][9]__0/Q' [C:/vivado/Dma_Verification/Dma_Verification.srcs/sources_1/new/dma_engine.sv:85]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin ch_desc_addr[3][9] with 2nd driver pin 'ch_desc_addr_reg[3][9]/Q' [C:/vivado/Dma_Verification/Dma_Verification.srcs/sources_1/new/dma_engine.sv:283]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin ch_desc_addr[3][8] with 1st driver pin 'ch_desc_addr_reg[3][8]__0/Q' [C:/vivado/Dma_Verification/Dma_Verification.srcs/sources_1/new/dma_engine.sv:85]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin ch_desc_addr[3][8] with 2nd driver pin 'ch_desc_addr_reg[3][8]/Q' [C:/vivado/Dma_Verification/Dma_Verification.srcs/sources_1/new/dma_engine.sv:283]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin ch_desc_addr[3][7] with 1st driver pin 'ch_desc_addr_reg[3][7]__0/Q' [C:/vivado/Dma_Verification/Dma_Verification.srcs/sources_1/new/dma_engine.sv:85]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin ch_desc_addr[3][7] with 2nd driver pin 'ch_desc_addr_reg[3][7]/Q' [C:/vivado/Dma_Verification/Dma_Verification.srcs/sources_1/new/dma_engine.sv:283]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin ch_desc_addr[3][6] with 1st driver pin 'ch_desc_addr_reg[3][6]__0/Q' [C:/vivado/Dma_Verification/Dma_Verification.srcs/sources_1/new/dma_engine.sv:85]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin ch_desc_addr[3][6] with 2nd driver pin 'ch_desc_addr_reg[3][6]/Q' [C:/vivado/Dma_Verification/Dma_Verification.srcs/sources_1/new/dma_engine.sv:283]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin ch_desc_addr[3][5] with 1st driver pin 'ch_desc_addr_reg[3][5]__0/Q' [C:/vivado/Dma_Verification/Dma_Verification.srcs/sources_1/new/dma_engine.sv:85]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin ch_desc_addr[3][5] with 2nd driver pin 'ch_desc_addr_reg[3][5]/Q' [C:/vivado/Dma_Verification/Dma_Verification.srcs/sources_1/new/dma_engine.sv:283]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin ch_desc_addr[3][4] with 1st driver pin 'ch_desc_addr_reg[3][4]__0/Q' [C:/vivado/Dma_Verification/Dma_Verification.srcs/sources_1/new/dma_engine.sv:85]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin ch_desc_addr[3][4] with 2nd driver pin 'ch_desc_addr_reg[3][4]/Q' [C:/vivado/Dma_Verification/Dma_Verification.srcs/sources_1/new/dma_engine.sv:283]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin ch_desc_addr[3][3] with 1st driver pin 'ch_desc_addr_reg[3][3]__0/Q' [C:/vivado/Dma_Verification/Dma_Verification.srcs/sources_1/new/dma_engine.sv:85]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin ch_desc_addr[3][3] with 2nd driver pin 'ch_desc_addr_reg[3][3]/Q' [C:/vivado/Dma_Verification/Dma_Verification.srcs/sources_1/new/dma_engine.sv:283]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin ch_desc_addr[3][2] with 1st driver pin 'ch_desc_addr_reg[3][2]__0/Q' [C:/vivado/Dma_Verification/Dma_Verification.srcs/sources_1/new/dma_engine.sv:85]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin ch_desc_addr[3][2] with 2nd driver pin 'ch_desc_addr_reg[3][2]/Q' [C:/vivado/Dma_Verification/Dma_Verification.srcs/sources_1/new/dma_engine.sv:283]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin ch_desc_addr[3][1] with 1st driver pin 'ch_desc_addr_reg[3][1]__0/Q' [C:/vivado/Dma_Verification/Dma_Verification.srcs/sources_1/new/dma_engine.sv:85]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin ch_desc_addr[3][1] with 2nd driver pin 'ch_desc_addr_reg[3][1]/Q' [C:/vivado/Dma_Verification/Dma_Verification.srcs/sources_1/new/dma_engine.sv:283]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin ch_desc_addr[3][0] with 1st driver pin 'ch_desc_addr_reg[3][0]__0/Q' [C:/vivado/Dma_Verification/Dma_Verification.srcs/sources_1/new/dma_engine.sv:85]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin ch_desc_addr[3][0] with 2nd driver pin 'ch_desc_addr_reg[3][0]/Q' [C:/vivado/Dma_Verification/Dma_Verification.srcs/sources_1/new/dma_engine.sv:283]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin ch_desc_addr[2][31] with 1st driver pin 'ch_desc_addr_reg[2][31]__0/Q' [C:/vivado/Dma_Verification/Dma_Verification.srcs/sources_1/new/dma_engine.sv:85]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin ch_desc_addr[2][31] with 2nd driver pin 'ch_desc_addr_reg[2][31]/Q' [C:/vivado/Dma_Verification/Dma_Verification.srcs/sources_1/new/dma_engine.sv:283]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin ch_desc_addr[2][30] with 1st driver pin 'ch_desc_addr_reg[2][30]__0/Q' [C:/vivado/Dma_Verification/Dma_Verification.srcs/sources_1/new/dma_engine.sv:85]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin ch_desc_addr[2][30] with 2nd driver pin 'ch_desc_addr_reg[2][30]/Q' [C:/vivado/Dma_Verification/Dma_Verification.srcs/sources_1/new/dma_engine.sv:283]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin ch_desc_addr[2][29] with 1st driver pin 'ch_desc_addr_reg[2][29]__0/Q' [C:/vivado/Dma_Verification/Dma_Verification.srcs/sources_1/new/dma_engine.sv:85]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin ch_desc_addr[2][29] with 2nd driver pin 'ch_desc_addr_reg[2][29]/Q' [C:/vivado/Dma_Verification/Dma_Verification.srcs/sources_1/new/dma_engine.sv:283]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin ch_desc_addr[2][28] with 1st driver pin 'ch_desc_addr_reg[2][28]__0/Q' [C:/vivado/Dma_Verification/Dma_Verification.srcs/sources_1/new/dma_engine.sv:85]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin ch_desc_addr[2][28] with 2nd driver pin 'ch_desc_addr_reg[2][28]/Q' [C:/vivado/Dma_Verification/Dma_Verification.srcs/sources_1/new/dma_engine.sv:283]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin ch_desc_addr[2][27] with 1st driver pin 'ch_desc_addr_reg[2][27]__0/Q' [C:/vivado/Dma_Verification/Dma_Verification.srcs/sources_1/new/dma_engine.sv:85]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin ch_desc_addr[2][27] with 2nd driver pin 'ch_desc_addr_reg[2][27]/Q' [C:/vivado/Dma_Verification/Dma_Verification.srcs/sources_1/new/dma_engine.sv:283]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin ch_desc_addr[2][26] with 1st driver pin 'ch_desc_addr_reg[2][26]__0/Q' [C:/vivado/Dma_Verification/Dma_Verification.srcs/sources_1/new/dma_engine.sv:85]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin ch_desc_addr[2][26] with 2nd driver pin 'ch_desc_addr_reg[2][26]/Q' [C:/vivado/Dma_Verification/Dma_Verification.srcs/sources_1/new/dma_engine.sv:283]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin ch_desc_addr[2][25] with 1st driver pin 'ch_desc_addr_reg[2][25]__0/Q' [C:/vivado/Dma_Verification/Dma_Verification.srcs/sources_1/new/dma_engine.sv:85]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin ch_desc_addr[2][25] with 2nd driver pin 'ch_desc_addr_reg[2][25]/Q' [C:/vivado/Dma_Verification/Dma_Verification.srcs/sources_1/new/dma_engine.sv:283]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin ch_desc_addr[2][24] with 1st driver pin 'ch_desc_addr_reg[2][24]__0/Q' [C:/vivado/Dma_Verification/Dma_Verification.srcs/sources_1/new/dma_engine.sv:85]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin ch_desc_addr[2][24] with 2nd driver pin 'ch_desc_addr_reg[2][24]/Q' [C:/vivado/Dma_Verification/Dma_Verification.srcs/sources_1/new/dma_engine.sv:283]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin ch_desc_addr[2][23] with 1st driver pin 'ch_desc_addr_reg[2][23]__0/Q' [C:/vivado/Dma_Verification/Dma_Verification.srcs/sources_1/new/dma_engine.sv:85]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin ch_desc_addr[2][23] with 2nd driver pin 'ch_desc_addr_reg[2][23]/Q' [C:/vivado/Dma_Verification/Dma_Verification.srcs/sources_1/new/dma_engine.sv:283]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin ch_desc_addr[2][22] with 1st driver pin 'ch_desc_addr_reg[2][22]__0/Q' [C:/vivado/Dma_Verification/Dma_Verification.srcs/sources_1/new/dma_engine.sv:85]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin ch_desc_addr[2][22] with 2nd driver pin 'ch_desc_addr_reg[2][22]/Q' [C:/vivado/Dma_Verification/Dma_Verification.srcs/sources_1/new/dma_engine.sv:283]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin ch_desc_addr[2][21] with 1st driver pin 'ch_desc_addr_reg[2][21]__0/Q' [C:/vivado/Dma_Verification/Dma_Verification.srcs/sources_1/new/dma_engine.sv:85]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin ch_desc_addr[2][21] with 2nd driver pin 'ch_desc_addr_reg[2][21]/Q' [C:/vivado/Dma_Verification/Dma_Verification.srcs/sources_1/new/dma_engine.sv:283]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin ch_desc_addr[2][20] with 1st driver pin 'ch_desc_addr_reg[2][20]__0/Q' [C:/vivado/Dma_Verification/Dma_Verification.srcs/sources_1/new/dma_engine.sv:85]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin ch_desc_addr[2][20] with 2nd driver pin 'ch_desc_addr_reg[2][20]/Q' [C:/vivado/Dma_Verification/Dma_Verification.srcs/sources_1/new/dma_engine.sv:283]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin ch_desc_addr[2][19] with 1st driver pin 'ch_desc_addr_reg[2][19]__0/Q' [C:/vivado/Dma_Verification/Dma_Verification.srcs/sources_1/new/dma_engine.sv:85]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin ch_desc_addr[2][19] with 2nd driver pin 'ch_desc_addr_reg[2][19]/Q' [C:/vivado/Dma_Verification/Dma_Verification.srcs/sources_1/new/dma_engine.sv:283]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin ch_desc_addr[2][18] with 1st driver pin 'ch_desc_addr_reg[2][18]__0/Q' [C:/vivado/Dma_Verification/Dma_Verification.srcs/sources_1/new/dma_engine.sv:85]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin ch_desc_addr[2][18] with 2nd driver pin 'ch_desc_addr_reg[2][18]/Q' [C:/vivado/Dma_Verification/Dma_Verification.srcs/sources_1/new/dma_engine.sv:283]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin ch_desc_addr[2][17] with 1st driver pin 'ch_desc_addr_reg[2][17]__0/Q' [C:/vivado/Dma_Verification/Dma_Verification.srcs/sources_1/new/dma_engine.sv:85]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin ch_desc_addr[2][17] with 2nd driver pin 'ch_desc_addr_reg[2][17]/Q' [C:/vivado/Dma_Verification/Dma_Verification.srcs/sources_1/new/dma_engine.sv:283]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin ch_desc_addr[2][16] with 1st driver pin 'ch_desc_addr_reg[2][16]__0/Q' [C:/vivado/Dma_Verification/Dma_Verification.srcs/sources_1/new/dma_engine.sv:85]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin ch_desc_addr[2][16] with 2nd driver pin 'ch_desc_addr_reg[2][16]/Q' [C:/vivado/Dma_Verification/Dma_Verification.srcs/sources_1/new/dma_engine.sv:283]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin ch_desc_addr[2][15] with 1st driver pin 'ch_desc_addr_reg[2][15]__0/Q' [C:/vivado/Dma_Verification/Dma_Verification.srcs/sources_1/new/dma_engine.sv:85]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin ch_desc_addr[2][15] with 2nd driver pin 'ch_desc_addr_reg[2][15]/Q' [C:/vivado/Dma_Verification/Dma_Verification.srcs/sources_1/new/dma_engine.sv:283]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin ch_desc_addr[2][14] with 1st driver pin 'ch_desc_addr_reg[2][14]__0/Q' [C:/vivado/Dma_Verification/Dma_Verification.srcs/sources_1/new/dma_engine.sv:85]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin ch_desc_addr[2][14] with 2nd driver pin 'ch_desc_addr_reg[2][14]/Q' [C:/vivado/Dma_Verification/Dma_Verification.srcs/sources_1/new/dma_engine.sv:283]
+INFO: [Common 17-14] Message 'Synth 8-6859' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|      128|Failed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:08 ; elapsed = 00:00:35 . Memory (MB): peak = 1353.930 ; gain = 833.762
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:08 ; elapsed = 00:00:35 . Memory (MB): peak = 1353.930 ; gain = 833.762
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:08 ; elapsed = 00:00:35 . Memory (MB): peak = 1353.930 ; gain = 833.762
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:08 ; elapsed = 00:00:35 . Memory (MB): peak = 1353.930 ; gain = 833.762
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     1|
+|2     |CARRY4 |    30|
+|3     |LUT1   |     2|
+|4     |LUT2   |    60|
+|5     |LUT3   |   121|
+|6     |LUT4   |    75|
+|7     |LUT5   |   162|
+|8     |LUT6   |   458|
+|9     |MUXF7  |   130|
+|10    |FDCE   |   540|
+|11    |FDPE   |     4|
+|12    |FDRE   |  1168|
+|13    |IBUF   |   123|
+|14    |OBUF   |   219|
++------+-------+------+
+
+Report Instance Areas: 
++------+---------+-------+------+
+|      |Instance |Module |Cells |
++------+---------+-------+------+
+|1     |top      |       |  3093|
++------+---------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:08 ; elapsed = 00:00:35 . Memory (MB): peak = 1353.930 ; gain = 833.762
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 256 critical warnings and 74 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:08 ; elapsed = 00:00:35 . Memory (MB): peak = 1353.930 ; gain = 833.762
+Synthesis Optimization Complete : Time (s): cpu = 00:00:08 ; elapsed = 00:00:35 . Memory (MB): peak = 1353.930 ; gain = 833.762
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.032 . Memory (MB): peak = 1365.984 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 160 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+WARNING: [Netlist 29-101] Netlist 'dma_engine' is not ideal for floorplanning, since the cellview 'dma_engine' contains a large number of primitives.  Please consider enabling hierarchy in synthesis if you want to do floorplanning.
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1423.695 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete | Checksum: 95cdc14f
+INFO: [Common 17-83] Releasing license: Synthesis
+16 Infos, 75 Warnings, 100 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:09 ; elapsed = 00:00:39 . Memory (MB): peak = 1423.695 ; gain = 906.516
+INFO: [runtcl-6] Synthesis results are not added to the cache due to CRITICAL_WARNING
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.009 . Memory (MB): peak = 1423.695 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/vivado/Dma_Verification/Dma_Verification.runs/synth_1/dma_engine.dcp' has been generated.
+INFO: [Vivado 12-24828] Executing command : report_utilization -file dma_engine_utilization_synth.rpt -pb dma_engine_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Tue May 12 12:25:45 2026...

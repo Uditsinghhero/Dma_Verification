@@ -1,0 +1,74 @@
+#-----------------------------------------------------------
+# Vivado v2024.1 (64-bit)
+# SW Build 5076996 on Wed May 22 18:37:14 MDT 2024
+# IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+# SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+# Start of session at: Thu May 28 23:40:52 2026
+# Process ID: 24904
+# Current directory: C:/vivado/Dma_Verification
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent4876 C:\vivado\Dma_Verification\Dma_Verification.xpr
+# Log file: C:/vivado/Dma_Verification/vivado.log
+# Journal file: C:/vivado/Dma_Verification\vivado.jou
+# Running On        :LAPTOP-GEKT898H
+# Platform          :Windows Server 2016 or Windows 10
+# Operating System  :22631
+# Processor Detail  :12th Gen Intel(R) Core(TM) i5-1235U
+# CPU Frequency     :2496 MHz
+# CPU Physical cores:10
+# CPU Logical cores :12
+# Host memory       :16869 MB
+# Swap memory       :7247 MB
+# Total Virtual     :24117 MB
+# Available Virtual :6641 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/vivado/Dma_Verification/Dma_Verification.xpr
+update_compile_order -fileset sources_1
+close [ open C:/vivado/Dma_Verification/Dma_Verification.srcs/sources_1/new/tb.sv w ]
+add_files C:/vivado/Dma_Verification/Dma_Verification.srcs/sources_1/new/tb.sv
+close [ open C:/vivado/Dma_Verification/Dma_Verification.srcs/sources_1/new/slave.sv w ]
+add_files C:/vivado/Dma_Verification/Dma_Verification.srcs/sources_1/new/slave.sv
+close [ open C:/vivado/Dma_Verification/Dma_Verification.srcs/sources_1/new/master.sv w ]
+add_files C:/vivado/Dma_Verification/Dma_Verification.srcs/sources_1/new/master.sv
+update_compile_order -fileset sources_1
+close [ open C:/vivado/Dma_Verification/Dma_Verification.srcs/sources_1/new/top.sv w ]
+add_files C:/vivado/Dma_Verification/Dma_Verification.srcs/sources_1/new/top.sv
+update_compile_order -fileset sources_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top tb [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+launch_simulation
+source tb_top.tcl
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top tb [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+launch_simulation
+close_sim
+launch_simulation
+source tb.tcl
+run all
+current_wave_config {Untitled 2}
+add_wave {{/tb/dut/m0}} 
+current_wave_config {Untitled 2}
+add_wave {{/tb/dut/s0}} 
+current_wave_config {Untitled 2}
+add_wave {{/tb/dut/m0}} 
+relaunch_sim
+current_wave_config {Untitled 2}
+add_wave {{/tb/dut/s0}} 
+current_wave_config {Untitled 2}
+add_wave {{/tb/dut/m0}} 
+current_wave_config {Untitled 2}
+add_wave {{/tb/dut/m0}} 
+current_wave_config {Untitled 2}
+log_wave {/tb/dut/m0} 
+relaunch_sim
+close_sim

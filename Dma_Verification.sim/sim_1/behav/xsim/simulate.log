@@ -1,0 +1,90 @@
+Time resolution is 1 ps
+UVM_INFO D:/Downloads/Vivado/2024.1/data/system_verilog/uvm_1.2/xlnx_uvm_package.sv(18601) @ 0: reporter [UVM/RELNOTES] 
+----------------------------------------------------------------
+UVM-1.2
+(C) 2007-2014 Mentor Graphics Corporation
+(C) 2007-2014 Cadence Design Systems, Inc.
+(C) 2006-2014 Synopsys, Inc.
+(C) 2011-2013 Cypress Semiconductor Corp.
+(C) 2013-2014 NVIDIA Corporation
+----------------------------------------------------------------
+
+  ***********       IMPORTANT RELEASE NOTES         ************
+
+  You are using a version of the UVM library that has been compiled
+  with `UVM_NO_DEPRECATED undefined.
+
+  You are using a version of the UVM library that has been compiled
+  with `UVM_OBJECT_DO_NOT_NEED_CONSTRUCTOR undefined.
+
+      (Specify +UVM_NO_RELNOTES to turn off this notice)
+
+TB_TOP: Running UVM test 'dma_all_test'
+UVM_INFO @ 0: reporter [RNTST] Running test dma_all_test...
+UVM_INFO D:/Downloads/Vivado/2024.1/data/system_verilog/uvm_1.2/xlnx_uvm_package.sv(20867) @ 0: reporter [UVM/COMP/NAMECHECK] This implementation of the component name checks requires DPI to be enabled
+UVM_INFO ../../../../Dma_Verification.srcs/sources_1/new/dma_test.sv(195) @ 0: uvm_test_top [TEST] Running all test cases to reach 100% coverage
+UVM_INFO ../../../../Dma_Verification.srcs/sources_1/new/dma_test.sv(223) @ 40505000: uvm_test_top [TEST] Running 25 adaptive transactions
+UVM_INFO ../../../../Dma_Verification.srcs/sources_1/new/dma_sequences.sv(590) @ 40505000: uvm_test_top.env.vsqr@@vseq [VSEQ] Starting coverage-closure virtual sequence
+UVM_INFO ../../../../Dma_Verification.srcs/sources_1/new/dma_sequences.sv(466) @ 40505000: uvm_test_top.env.vsqr@@vseq [VSEQ] === Phase 1: Deterministic coverage sweep ===
+UVM_INFO ../../../../Dma_Verification.srcs/sources_1/new/dma_sequences.sv(470) @ 40505000: uvm_test_top.env.vsqr@@vseq [VSEQ] Sweep: sg_depth bins
+UVM_INFO ../../../../Dma_Verification.srcs/sources_1/new/dma_sequences.sv(480) @ 169475000: uvm_test_top.env.vsqr@@vseq [VSEQ] Sweep: alignment bins
+UVM_INFO ../../../../Dma_Verification.srcs/sources_1/new/dma_sequences.sv(492) @ 180135000: uvm_test_top.env.vsqr@@vseq [VSEQ] Sweep: channel bins
+UVM_INFO ../../../../Dma_Verification.srcs/sources_1/new/dma_sequences.sv(503) @ 190795000: uvm_test_top.env.vsqr@@vseq [VSEQ] Sweep: error cross bins
+UVM_INFO ../../../../Dma_Verification.srcs/sources_1/new/dma_sequences.sv(511) @ 195715000: uvm_test_top.env.vsqr@@vseq [VSEQ] Sweep: cross_sg_align FULL sweep
+UVM_INFO ../../../../Dma_Verification.srcs/sources_1/new/dma_sequences.sv(522) @ 457185000: uvm_test_top.env.vsqr@@vseq [VSEQ] === Phase 1 complete ===
+UVM_INFO ../../../../Dma_Verification.srcs/sources_1/new/dma_sequences.sv(535) @ 457185000: uvm_test_top.env.vsqr@@vseq [VSEQ] === Phase 2: 25 random transactions ===
+UVM_INFO ../../../../Dma_Verification.srcs/sources_1/new/dma_sequences.sv(586) @ 735515000: uvm_test_top.env.vsqr@@vseq [VSEQ] === Phase 2 complete ===
+UVM_INFO ../../../../Dma_Verification.srcs/sources_1/new/dma_sequences.sv(593) @ 735515000: uvm_test_top.env.vsqr@@vseq [VSEQ] All transactions complete
+UVM_INFO D:/Downloads/Vivado/2024.1/data/system_verilog/uvm_1.2/xlnx_uvm_package.sv(19968) @ 745515000: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase
+UVM_INFO ../../../../Dma_Verification.srcs/sources_1/new/dma_scoreboard.sv(190) @ 745515000: uvm_test_top.env.scoreboard [SB] 
+====== SCOREBOARD SUMMARY ======
+  Total transactions : 74
+  Passed             : 74
+  Failed             : 0
+  Timed out          : 0
+  Total bytes checked: 105088
+================================
+UVM_INFO ../../../../Dma_Verification.srcs/sources_1/new/dma_scoreboard.sv(195) @ 745515000: uvm_test_top.env.scoreboard [SB] ALL TRANSFERS VERIFIED - PASS
+UVM_INFO D:/Downloads/Vivado/2024.1/data/system_verilog/uvm_1.2/xlnx_uvm_package.sv(13673) @ 745515000: reporter [UVM/REPORT/SERVER] 
+--- UVM Report Summary ---
+
+** Report counts by severity
+UVM_INFO :   19
+UVM_WARNING :    0
+UVM_ERROR :    0
+UVM_FATAL :    0
+** Report counts by id
+[RNTST]     1
+[SB]     2
+[TEST]     2
+[TEST_DONE]     1
+[UVM/COMP/NAMECHECK]     1
+[UVM/RELNOTES]     1
+[VSEQ]    11
+
+$finish called at time : 745515 ns : File "D:/Downloads/Vivado/2024.1/data/system_verilog/uvm_1.2/xlnx_uvm_package.sv" Line 18699
+
+ Options Set are : 
+
+   Report Format              : html
+   Log File                   : xcrg.log
+   Functional Coverage Dir[s] : ./
+   Functional Coverage DB[s]  : tb_top_behav
+
+
+
+********************************************************
+                  Functional Coverage Report 
+********************************************************
+
+ Restoring Functional Coverage DB[s] from : 
+  1	.//xsim.covdb/tb_top_behav/xsim.covinfo
+
+ Functional Coverage HTML Report directory        : ./xsim_coverage_report/functionalCoverageReport
+
+ Creating dashboard.html 
+
+ Creating groups.html 
+
+ Creating grp0.html 
+

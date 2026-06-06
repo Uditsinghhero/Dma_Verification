@@ -1,0 +1,25 @@
+
+ Options Set are : 
+
+   Report Format              : html
+   Log File                   : xcrg.log
+   Functional Coverage Dir[s] : ./
+   Functional Coverage DB[s]  : tb_top_behav
+
+
+
+********************************************************
+                  Functional Coverage Report 
+********************************************************
+
+ Restoring Functional Coverage DB[s] from : 
+  1	.//xsim.covdb/tb_top_behav/xsim.covinfo
+
+ Functional Coverage HTML Report directory        : ./xsim_coverage_report/functionalCoverageReport
+
+ Creating dashboard.html 
+
+ Creating groups.html 
+
+ Creating grp0.html 
+

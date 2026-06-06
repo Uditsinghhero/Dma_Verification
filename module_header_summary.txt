@@ -1,0 +1,70 @@
+DMA Verification Project: Module and Header Summary
+Generated for the current cleaned, regression-ready state.
+
+1. C:\vivado\Dma_Verification\Dma_Verification.srcs\sources_1\new\dma_engine.sv
+   Main RTL DMA engine.
+   Implements the APB CSR block, channel control, descriptor fetch, AXI read/write master FSM, scatter-gather traversal, done/error/IRQ generation, and channel arbitration.
+
+2. C:\vivado\Dma_Verification\Dma_Verification.srcs\sources_1\new\dma_interfaces.sv
+   Interface definitions for the testbench.
+   Contains `dma_axi_if`, `dma_apb_if`, and `dma_irq_if`, along with clocking blocks, modports, and a few AXI protocol assertions used by the agents and monitors.
+
+3. C:\vivado\Dma_Verification\Dma_Verification.srcs\sources_1\new\dma_seq_item.sv
+   UVM sequence item for one DMA programming request.
+   Holds source/destination addresses, transfer length, flags, burst length, SG depth, alignment overrides, and error-injection controls.
+
+4. C:\vivado\Dma_Verification\Dma_Verification.srcs\sources_1\new\dma_axi_mem_agent.sv
+   UVM AXI memory slave agent.
+   Provides a backdoor-accessible memory model, drives AXI read/write handshakes toward the DUT, captures AXI transactions for analysis, and supplies the scoreboard with the authoritative memory image.
+
+5. C:\vivado\Dma_Verification\Dma_Verification.srcs\sources_1\new\dma_apb_agent.sv
+   UVM APB programming agent.
+   Drives channel/global CSR writes, materializes descriptors into the shared AXI memory model, and monitors APB programming to reconstruct launched DMA transfers for the scoreboard and coverage.
+
+6. C:\vivado\Dma_Verification\Dma_Verification.srcs\sources_1\new\dma_scoreboard.sv
+   End-to-end data checker.
+   Tracks each launched DMA transfer, waits for enough AXI write completions, compares destination memory against expected source bytes, records pass/fail/timeout counts, and prints the final scoreboard summary.
+
+7. C:\vivado\Dma_Verification\Dma_Verification.srcs\sources_1\new\dma_coverage.sv
+   UVM functional coverage collector.
+   Samples APB-launched DMA transactions and records coverage over channel selection, SG depth, alignment, and injected error combinations.
+
+8. C:\vivado\Dma_Verification\Dma_Verification.srcs\sources_1\new\dma_virtual_sequencer.sv
+   Virtual sequencer for top-level scenario control.
+   Holds handles to the APB sequencer, AXI sequencer, and IRQ/status interface, and maintains adaptive weighting knobs used by the stress virtual sequence.
+
+9. C:\vivado\Dma_Verification\Dma_Verification.srcs\sources_1\new\dma_sequences.sv
+   Scenario library for DMA stimulus.
+   Includes:
+   - directed one-shot sequences for aligned, multi-burst, SG=16, misaligned, and exact-repro cases
+   - randomized SG/misaligned/error sequences
+   - the adaptive virtual sequence that mixes these scenarios and waits for DMA completion between transactions
+
+10. C:\vivado\Dma_Verification\Dma_Verification.srcs\sources_1\new\dma_env.sv
+    UVM environment assembly.
+    Instantiates APB and AXI agents, scoreboard, coverage, and virtual sequencer; connects analysis paths; and passes the AXI memory driver handle to the scoreboard for backdoor checks.
+
+11. C:\vivado\Dma_Verification\Dma_Verification.srcs\sources_1\new\dma_test.sv
+    UVM test definitions.
+    Contains the adaptive stress test and the directed tests, including the shared base test logic that waits for `dma_busy` to assert and return idle before ending a directed case.
+
+12. C:\vivado\Dma_Verification\Dma_Verification.srcs\sources_1\new\dma_uvm_pkg.sv
+    UVM package wrapper.
+    Imports `uvm_pkg`, includes `uvm_macros.svh`, and pulls all class-based UVM source files into a single package in dependency-safe order.
+
+13. C:\vivado\Dma_Verification\Dma_Verification.srcs\sources_1\new\tb_top.sv
+    Top-level simulation testbench.
+    Instantiates clock/reset, interfaces, the DUT, config-db bindings for virtual interfaces, and launches the selected UVM test through `run_test(selected_test)`.
+
+14. C:\vivado\Dma_Verification\run_sim.tcl
+    Vivado simulation helper script.
+    Used to launch simulation with the intended top (`tb_top`), apply a lighter debug waveform set, and run the design in a more repeatable way than the default short GUI-generated run script.
+
+Working interpretation of the current project state
+   - Directed aligned single-descriptor transfer: passing
+   - Directed aligned multi-burst transfer: passing
+   - Directed SG=16 transfer: passing
+   - Directed misaligned transfer: passing
+   - Adaptive mixed stress test: passing
+   - Scoreboard/UVM report summary: clean
+
