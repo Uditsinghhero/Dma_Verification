@@ -65,3 +65,15 @@
   CREATE_STREAM @191985000 {NAME:err_seq T:Transactions SCOPE:uvm_test_top.env.apb_agent.sequencer STREAM:14064}
   CREATE_STREAM @457185000 {NAME:mal T:Transactions SCOPE:uvm_test_top.env.apb_agent.sequencer STREAM:29496}
   CREATE_STREAM @487725000 {NAME:err T:Transactions SCOPE:uvm_test_top.env.apb_agent.sequencer STREAM:30814}
+  CREATE_STREAM @0 {NAME:seq1 T:Transactions SCOPE:uvm_test_top.env.apb_agent.sequencer STREAM:1026}
+  CREATE_STREAM @1945000 {NAME:seq2 T:Transactions SCOPE:uvm_test_top.env.apb_agent.sequencer STREAM:1231}
+  CREATE_STREAM @4775000 {NAME:seq3 T:Transactions SCOPE:uvm_test_top.env.apb_agent.sequencer STREAM:1385}
+  CREATE_STREAM @16105000 {NAME:seq4 T:Transactions SCOPE:uvm_test_top.env.apb_agent.sequencer STREAM:1979}
+  CREATE_STREAM @17655000 {NAME:seq5 T:Transactions SCOPE:uvm_test_top.env.apb_agent.sequencer STREAM:2069}
+  CREATE_STREAM @40505000 {NAME:vseq T:Transactions SCOPE:uvm_test_top.env.vsqr STREAM:3049}
+  CREATE_STREAM @40505000 {NAME:sg_seq T:Transactions SCOPE:uvm_test_top.env.apb_agent.sequencer STREAM:3064}
+  CREATE_STREAM @169475000 {NAME:mal_seq T:Transactions SCOPE:uvm_test_top.env.apb_agent.sequencer STREAM:12548}
+  CREATE_STREAM @190795000 {NAME:no_err_seq T:Transactions SCOPE:uvm_test_top.env.apb_agent.sequencer STREAM:13962}
+  CREATE_STREAM @191985000 {NAME:err_seq T:Transactions SCOPE:uvm_test_top.env.apb_agent.sequencer STREAM:14064}
+  CREATE_STREAM @457185000 {NAME:mal T:Transactions SCOPE:uvm_test_top.env.apb_agent.sequencer STREAM:29496}
+  CREATE_STREAM @487725000 {NAME:err T:Transactions SCOPE:uvm_test_top.env.apb_agent.sequencer STREAM:30814}

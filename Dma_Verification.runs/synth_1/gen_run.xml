@@ -3,8 +3,8 @@
   <File Type="PA-TCL" Name="dma_engine.tcl"/>
   <File Type="REPORTS-TCL" Name="dma_engine_reports.tcl"/>
   <File Type="RDS-RDS" Name="dma_engine.vds"/>
-  <File Type="RDS-UTIL" Name="tb_top_utilization_synth.rpt"/>
-  <File Type="RDS-UTIL-PB" Name="tb_top_utilization_synth.pb"/>
+  <File Type="RDS-UTIL" Name="dma_engine_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="dma_engine_utilization_synth.pb"/>
   <File Type="RDS-DCP" Name="dma_engine.dcp"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
     <Filter Type="Srcs"/>

@@ -1,9 +1,9 @@
 # compile verilog/system verilog design source files
-sv xil_defaultlib  -i "D:/Downloads/Vivado/2024.1/data/system_verilog/uvm_1.2" --include "../../../../Dma_Verification.srcs/sources_1/new" \
-"../../../../Dma_Verification.srcs/sources_1/new/dma_engine.sv" \
-"../../../../Dma_Verification.srcs/sources_1/new/dma_interfaces.sv" \
-"../../../../Dma_Verification.srcs/sources_1/new/dma_uvm_pkg.sv" \
-"../../../../Dma_Verification.srcs/sources_1/new/tb_top.sv" \
+sv xil_defaultlib  -i "D:/Downloads/Vivado/2024.1/data/system_verilog/uvm_1.2" \
+"../../../../Dma_Verification.srcs/sim_1/imports/new/dma_engine.sv" \
+"../../../../Dma_Verification.srcs/sim_1/imports/new/dma_interfaces.sv" \
+"../../../../Dma_Verification.srcs/sim_1/imports/new/dma_uvm_pkg.sv" \
+"../../../../Dma_Verification.srcs/sim_1/imports/new/tb_top.sv" \
 
 # compile glbl module
 verilog xil_defaultlib "glbl.v"

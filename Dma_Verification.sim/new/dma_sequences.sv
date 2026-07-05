@@ -463,6 +463,9 @@ class dma_adaptive_virtual_seq extends uvm_sequence;
     // Phase 1: deterministic sweep - guarantees every bin is hit
     // ----------------------------------------------------------------
     task run_deterministic_sweep();
+        int sweep_sg_depths[5] = '{1, 2, 4, 8, 16};
+        int sweep_align_vals[5] = '{0, 1, 2, 3, 5};
+
         `uvm_info("VSEQ", "=== Phase 1: Deterministic coverage sweep ===", UVM_MEDIUM)
 
         // --- cp_sg_depth: hit all 5 bins explicitly ---
@@ -510,8 +513,6 @@ class dma_adaptive_virtual_seq extends uvm_sequence;
         // Guarantees all 25 cross bins are hit explicitly.
         `uvm_info("VSEQ", "Sweep: cross_sg_align FULL sweep", UVM_MEDIUM)
         begin
-            int sweep_sg_depths[5] = '{1, 2, 4, 8, 16};
-            int sweep_align_vals[5] = '{0, 1, 2, 3, 5};
             for (int d = 0; d < 5; d++) begin
                 for (int a = 0; a < 5; a++) begin
                     run_misalign(sweep_sg_depths[d], sweep_align_vals[a], sweep_align_vals[a]);

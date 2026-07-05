@@ -22,21 +22,21 @@ UVM-1.2
 TB_TOP: Running UVM test 'dma_all_test'
 UVM_INFO @ 0: reporter [RNTST] Running test dma_all_test...
 UVM_INFO D:/Downloads/Vivado/2024.1/data/system_verilog/uvm_1.2/xlnx_uvm_package.sv(20867) @ 0: reporter [UVM/COMP/NAMECHECK] This implementation of the component name checks requires DPI to be enabled
-UVM_INFO ../../../../Dma_Verification.srcs/sources_1/new/dma_test.sv(195) @ 0: uvm_test_top [TEST] Running all test cases to reach 100% coverage
-UVM_INFO ../../../../Dma_Verification.srcs/sources_1/new/dma_test.sv(223) @ 40505000: uvm_test_top [TEST] Running 25 adaptive transactions
-UVM_INFO ../../../../Dma_Verification.srcs/sources_1/new/dma_sequences.sv(590) @ 40505000: uvm_test_top.env.vsqr@@vseq [VSEQ] Starting coverage-closure virtual sequence
-UVM_INFO ../../../../Dma_Verification.srcs/sources_1/new/dma_sequences.sv(466) @ 40505000: uvm_test_top.env.vsqr@@vseq [VSEQ] === Phase 1: Deterministic coverage sweep ===
-UVM_INFO ../../../../Dma_Verification.srcs/sources_1/new/dma_sequences.sv(470) @ 40505000: uvm_test_top.env.vsqr@@vseq [VSEQ] Sweep: sg_depth bins
-UVM_INFO ../../../../Dma_Verification.srcs/sources_1/new/dma_sequences.sv(480) @ 169475000: uvm_test_top.env.vsqr@@vseq [VSEQ] Sweep: alignment bins
-UVM_INFO ../../../../Dma_Verification.srcs/sources_1/new/dma_sequences.sv(492) @ 180135000: uvm_test_top.env.vsqr@@vseq [VSEQ] Sweep: channel bins
-UVM_INFO ../../../../Dma_Verification.srcs/sources_1/new/dma_sequences.sv(503) @ 190795000: uvm_test_top.env.vsqr@@vseq [VSEQ] Sweep: error cross bins
-UVM_INFO ../../../../Dma_Verification.srcs/sources_1/new/dma_sequences.sv(511) @ 195715000: uvm_test_top.env.vsqr@@vseq [VSEQ] Sweep: cross_sg_align FULL sweep
-UVM_INFO ../../../../Dma_Verification.srcs/sources_1/new/dma_sequences.sv(522) @ 457185000: uvm_test_top.env.vsqr@@vseq [VSEQ] === Phase 1 complete ===
-UVM_INFO ../../../../Dma_Verification.srcs/sources_1/new/dma_sequences.sv(535) @ 457185000: uvm_test_top.env.vsqr@@vseq [VSEQ] === Phase 2: 25 random transactions ===
-UVM_INFO ../../../../Dma_Verification.srcs/sources_1/new/dma_sequences.sv(586) @ 735515000: uvm_test_top.env.vsqr@@vseq [VSEQ] === Phase 2 complete ===
-UVM_INFO ../../../../Dma_Verification.srcs/sources_1/new/dma_sequences.sv(593) @ 735515000: uvm_test_top.env.vsqr@@vseq [VSEQ] All transactions complete
+UVM_INFO C:/vivado/Dma_Verification/Dma_Verification.srcs/sim_1/imports/new/dma_test.sv(195) @ 0: uvm_test_top [TEST] Running all test cases to reach 100% coverage
+UVM_INFO C:/vivado/Dma_Verification/Dma_Verification.srcs/sim_1/imports/new/dma_test.sv(223) @ 40505000: uvm_test_top [TEST] Running 25 adaptive transactions
+UVM_INFO C:/vivado/Dma_Verification/Dma_Verification.srcs/sim_1/imports/new/dma_sequences.sv(590) @ 40505000: uvm_test_top.env.vsqr@@vseq [VSEQ] Starting coverage-closure virtual sequence
+UVM_INFO C:/vivado/Dma_Verification/Dma_Verification.srcs/sim_1/imports/new/dma_sequences.sv(466) @ 40505000: uvm_test_top.env.vsqr@@vseq [VSEQ] === Phase 1: Deterministic coverage sweep ===
+UVM_INFO C:/vivado/Dma_Verification/Dma_Verification.srcs/sim_1/imports/new/dma_sequences.sv(470) @ 40505000: uvm_test_top.env.vsqr@@vseq [VSEQ] Sweep: sg_depth bins
+UVM_INFO C:/vivado/Dma_Verification/Dma_Verification.srcs/sim_1/imports/new/dma_sequences.sv(480) @ 169475000: uvm_test_top.env.vsqr@@vseq [VSEQ] Sweep: alignment bins
+UVM_INFO C:/vivado/Dma_Verification/Dma_Verification.srcs/sim_1/imports/new/dma_sequences.sv(492) @ 180135000: uvm_test_top.env.vsqr@@vseq [VSEQ] Sweep: channel bins
+UVM_INFO C:/vivado/Dma_Verification/Dma_Verification.srcs/sim_1/imports/new/dma_sequences.sv(503) @ 190795000: uvm_test_top.env.vsqr@@vseq [VSEQ] Sweep: error cross bins
+UVM_INFO C:/vivado/Dma_Verification/Dma_Verification.srcs/sim_1/imports/new/dma_sequences.sv(511) @ 195715000: uvm_test_top.env.vsqr@@vseq [VSEQ] Sweep: cross_sg_align FULL sweep
+UVM_INFO C:/vivado/Dma_Verification/Dma_Verification.srcs/sim_1/imports/new/dma_sequences.sv(522) @ 457185000: uvm_test_top.env.vsqr@@vseq [VSEQ] === Phase 1 complete ===
+UVM_INFO C:/vivado/Dma_Verification/Dma_Verification.srcs/sim_1/imports/new/dma_sequences.sv(535) @ 457185000: uvm_test_top.env.vsqr@@vseq [VSEQ] === Phase 2: 25 random transactions ===
+UVM_INFO C:/vivado/Dma_Verification/Dma_Verification.srcs/sim_1/imports/new/dma_sequences.sv(586) @ 735515000: uvm_test_top.env.vsqr@@vseq [VSEQ] === Phase 2 complete ===
+UVM_INFO C:/vivado/Dma_Verification/Dma_Verification.srcs/sim_1/imports/new/dma_sequences.sv(593) @ 735515000: uvm_test_top.env.vsqr@@vseq [VSEQ] All transactions complete
 UVM_INFO D:/Downloads/Vivado/2024.1/data/system_verilog/uvm_1.2/xlnx_uvm_package.sv(19968) @ 745515000: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase
-UVM_INFO ../../../../Dma_Verification.srcs/sources_1/new/dma_scoreboard.sv(190) @ 745515000: uvm_test_top.env.scoreboard [SB] 
+UVM_INFO C:/vivado/Dma_Verification/Dma_Verification.srcs/sim_1/imports/new/dma_scoreboard.sv(190) @ 745515000: uvm_test_top.env.scoreboard [SB] 
 ====== SCOREBOARD SUMMARY ======
   Total transactions : 74
   Passed             : 74
@@ -44,7 +44,7 @@ UVM_INFO ../../../../Dma_Verification.srcs/sources_1/new/dma_scoreboard.sv(190) 
   Timed out          : 0
   Total bytes checked: 105088
 ================================
-UVM_INFO ../../../../Dma_Verification.srcs/sources_1/new/dma_scoreboard.sv(195) @ 745515000: uvm_test_top.env.scoreboard [SB] ALL TRANSFERS VERIFIED - PASS
+UVM_INFO C:/vivado/Dma_Verification/Dma_Verification.srcs/sim_1/imports/new/dma_scoreboard.sv(195) @ 745515000: uvm_test_top.env.scoreboard [SB] ALL TRANSFERS VERIFIED - PASS
 UVM_INFO D:/Downloads/Vivado/2024.1/data/system_verilog/uvm_1.2/xlnx_uvm_package.sv(13673) @ 745515000: reporter [UVM/REPORT/SERVER] 
 --- UVM Report Summary ---
 

@@ -1,0 +1,27 @@
+#-----------------------------------------------------------
+# Vivado v2024.1 (64-bit)
+# SW Build 5076996 on Wed May 22 18:37:14 MDT 2024
+# IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+# SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+# Start of session at: Wed Jun 10 11:18:28 2026
+# Process ID: 3000
+# Current directory: C:/vivado/Dma_Verification
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent4144 C:\vivado\Dma_Verification\Dma_Verification.xpr
+# Log file: C:/vivado/Dma_Verification/vivado.log
+# Journal file: C:/vivado/Dma_Verification\vivado.jou
+# Running On        :LAPTOP-GEKT898H
+# Platform          :Windows Server 2016 or Windows 10
+# Operating System  :22631
+# Processor Detail  :12th Gen Intel(R) Core(TM) i5-1235U
+# CPU Frequency     :2496 MHz
+# CPU Physical cores:10
+# CPU Logical cores :12
+# Host memory       :16869 MB
+# Swap memory       :7247 MB
+# Total Virtual     :24117 MB
+# Available Virtual :10068 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/vivado/Dma_Verification/Dma_Verification.xpr
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
